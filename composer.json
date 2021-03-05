@@ -43,6 +43,7 @@
         "dama/doctrine-test-bundle": "^6.2",
         "doctrine/doctrine-fixtures-bundle": "^3.0",
         "friendsofphp/php-cs-fixer": "3.0.x-dev",
+        "pyrech/composer-changelogs": "^1.7",
         "symfony/browser-kit": "4.4.*",
         "symfony/css-selector": "4.4.*",
         "symfony/debug-bundle": "4.4.*",

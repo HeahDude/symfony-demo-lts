@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "005a5e8b2dfb15266ca43e086a087176",
+    "content-hash": "dd1886dc91ca2dfde7a43fbb43b1c942",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -7802,6 +7802,61 @@
                 "source": "https://github.com/PHP-CS-Fixer/diff/tree/v2.0.2"
             },
             "time": "2020-10-14T08:32:19+00:00"
+        },
+        {
+            "name": "pyrech/composer-changelogs",
+            "version": "v1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pyrech/composer-changelogs.git",
+                "reference": "1e35272e283e2c07b7ca5f1ba54ae425b6126001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pyrech/composer-changelogs/zipball/1e35272e283e2c07b7ca5f1ba54ae425b6126001",
+                "reference": "1e35272e283e2c07b7ca5f1ba54ae425b6126001",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0.0-alpha10@dev || ^2.0@dev",
+                "composer/semver": "^1.2 || ^2.0",
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Pyrech\\ComposerChangelogs\\ChangelogsPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pyrech\\ComposerChangelogs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Loïck Piera",
+                    "email": "pyrech@gmail.com"
+                }
+            ],
+            "description": "Display changelogs after each composer update",
+            "keywords": [
+                "changelog",
+                "composer",
+                "plugin",
+                "update"
+            ],
+            "support": {
+                "issues": "https://github.com/pyrech/composer-changelogs/issues",
+                "source": "https://github.com/pyrech/composer-changelogs/tree/master"
+            },
+            "time": "2020-04-27T13:47:46+00:00"
         },
         {
             "name": "symfony/browser-kit",
